@@ -141,13 +141,13 @@
       height: 20px;
       color: white;
       path {
-        fill: $white;
+        fill: #edefee;
       }
       transition: all 0.2s ease;
       &:hover {
         transform: translateY(-5px);
         path {
-          fill: $accent-color;
+          fill: #f4ce14;
           transition: all 0.2s ease;
         }
       }

@@ -40,17 +40,17 @@ function Nav() {
                 </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Menu</a>
+              <a className="nav-link" href="#">Services</a>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/404">Menu</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Reservation</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Order Online</a>
-            </li>
           </ul>
           <form className="d-flex">
-            <button className="btn btn-outline-success" type="submit">Login</button>
+            <button className="btn btn-outline-success" type="submit">Order Online</button>
           </form>
         </div>
       </div>
