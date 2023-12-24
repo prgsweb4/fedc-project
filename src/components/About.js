@@ -1,6 +1,6 @@
 import "../assets/About.css";
-import chef from "../assets/chef.jpg";
-import chefs from "../assets/chefs.jpg";
+import chef from "../assets/images/little-riyadh.jpg";
+import chefs from "../assets/images/restaurant.jpg";
 const About = () => {
   return (
     <section className="about" id="about">
@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-wrap">
           <div className="text-content">
             <h2 className="heading">Little Lemon</h2>
-            <h3 className="location">India</h3>
+            <h3 className="location">Riyadh</h3>
             <div className="desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed non,
               nisi ut odit ex neque reprehenderit accusantium optio ratione eius

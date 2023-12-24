@@ -13,8 +13,6 @@ function Nav() {
         }
       };
     return (
-      
-
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
@@ -35,18 +33,18 @@ function Nav() {
               <Link className="nav-link active" to="/">Home</Link>
             </li>
             <li className="nav-item">
-            <Link className="nav-link" to="/" onClick={handleScroll}>
+                 <Link className="nav-link" to="/" onClick={handleScroll}>
                   About
                 </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Services</a>
+              <a className="nav-link" href="/services">Services</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/404">Menu</Link>
+              <Link className="nav-link" to="/menu">Menu</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Reservation</a>
+              <a className="nav-link" href="/booking">Reservation</a>
             </li>
           </ul>
           <form className="d-flex">
