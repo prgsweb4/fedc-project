@@ -1,11 +1,13 @@
-# Getting Started with Create React App
+#  Front-End Developer Capstone / final project By Jameel Jardan
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Clone the repos
 
 In the project directory, you can run:
 
+### `npm Install`
+Then
 ### `npm start`
 
 Runs the app in the development mode.\
