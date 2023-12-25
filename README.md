@@ -12,7 +12,7 @@ Then
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+![screencapture](https://github.com/prgsweb4/fedc-project/assets/15383035/a6ac7807-4456-45ce-b4c4-5da308f813a9)
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
