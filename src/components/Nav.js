@@ -47,9 +47,7 @@ function Nav() {
               <a className="nav-link" href="/booking">Reservation</a>
             </li>
           </ul>
-          <form className="d-flex">
-            <button className="btn btn-outline-success" type="submit">Order Online</button>
-          </form>
+            <a className="btn btn-success" href="/login">Login</a>
         </div>
       </div>
     </nav>

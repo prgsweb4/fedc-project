@@ -15,6 +15,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Menu from './components/Menu';
 import Booking from './components/Booking';
 import ConfirmedBooking from './components/ConfirmedBooking';
+import Login from './components/Login';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/confirmed" element={<ConfirmedBooking />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} /> 
       </Routes>
       <Footer/>
